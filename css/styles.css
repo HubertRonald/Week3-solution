@@ -1,13 +1,14 @@
+/*----------------------------------*/
 /*---------- Base styles -----------*/
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1 {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 175%;
+  font-size: 300%;
 }
 
 p {
@@ -15,13 +16,13 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 20px;
-  color: maroon;
+  color: black;
 }
 
-section {clear: right;}
+section, article {clear: right;}
 
 /* Simple Responsive Framework. */
-.row {width: 100%;}
+main {width: 100%;}
 
 .cell {background-color: gray; border: solid black  0.5px;}
 
@@ -37,9 +38,7 @@ section {clear: right;}
   color:white;
 }
 
-#title-1 {background-color: maroon; border: solid black 0.5px;}
-#title-2 {background-color: indianred; border: solid black 0.5px;}
-#title-3 {background-color: tomato; border: solid black 0.5px; color:black;}
+section#title {background-color: black; border: solid black 0.5px;}
 
 
 /*---------- Large devices only ----------*/
